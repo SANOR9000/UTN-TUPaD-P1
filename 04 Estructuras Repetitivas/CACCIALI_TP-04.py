@@ -42,7 +42,7 @@ for i in reversed(range(1, 100)):
 
 
 # 7
-(lambda x: x*(x+1)/2)(int(input("Ingrese un numero: ")))
+print((lambda x: x*(x+1)/2)(int(input("Ingrese un numero: "))))
 
 
 # 8
