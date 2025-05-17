@@ -42,8 +42,7 @@ for i in reversed(range(1, 100)):
 
 
 # 7
-entrada = int(input("Ingrese un numero: "))
-print(entrada*(entrada+1)/2)
+(lambda x: x*(x+1)/2)(int(input("Ingrese un numero: ")))
 
 
 # 8
